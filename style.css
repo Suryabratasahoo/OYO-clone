@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.oyo-info{
+    
+    background-color: black;
+    width: 100%;
+    height: 4.40rem;
+    box-shadow: -2px -1px 5px 0px;
+    position: relative;
+    z-index: 1;
+}
+.card-container{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 4.40rem;
+}
+.brand-icon{
+    width: 18rem;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    padding-left: 4.5rem;
+    align-items: center;
+}
+.business-card{
+    width: 14rem;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(205, 201, 201);
+    border-right: 1px solid rgb(205, 201, 201);
+}
+.property-card{
+    width: 13rem;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-card{
+    width: 13rem;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(205, 201, 201);
+    border-right: 1px solid rgb(205, 201, 201);
+}
+.language-card{
+    width: 10rem;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-right: 1px solid rgb(205, 201, 201);
+}
+.login-card{
+    width: 10rem;
+    height: 100%;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-right: 1px solid rgb(205, 201, 201);
+}
+svg{
+    margin-right: 1rem;
+}
+h6{
+    opacity: 0.3;
+}
+.language-card svg{
+    margin-right: 0.5rem;
+}
+.language-card .content{
+    display: flex;
+    gap: 0.25rem;
+}
+.login-card i{
+    margin-right: 0.5rem;
+}
+.cities {
+    height: 2.65rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: rgb(243, 245, 247);
+    padding-left: 2rem;
+}
+.cities div{
+    align-self: center;
+    font-size: 0.85rem;
+}
+.cities i{
+    margin-left: 0.25rem;
+}
+.detail-pic{
+    width: 100%;
+    height: 16rem;
+    background-color: aqua;
+    overflow: hidden;
+    background-image: url(assets/oyo.avif);
+    background-size: cover;
+}
+.detail-pic .details{
+    width: 65.8rem;
+    height: 8.75rem;
+    
+   margin: auto;
+    margin-top: 3.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+.details h1{
+    margin: 1rem 0 1rem 0;
+    color: white;
+}
+.detail-container{
+    width: 100%;
+    height: 43%;
+    background-color: blue;
+    border-radius: 0.50rem;
+    display: flex;
+}
+.search-bar{
+    width: 25.5rem;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 0.50rem;
+    border-bottom-left-radius: 0.50rem;
+    display: flex;
+    border-right: 1px solid black;
+}
+.search-bar input {
+    width: 70%;
+    height: 90%;
+    border: none;
+    font-size: 14px;
+    padding-left: 1.5rem;
+    padding-top: 0.23rem;
+    outline: none;
+    border-radius: 0.50rem;
+
+}
+.search-bar .badge{
+    font-weight: 600;
+    width: 5rem;
+    font-size: 12px;
+    height: 40%;
+    margin-top: 0.75rem;
+    padding-top: 11px;
+    margin-left: 0.75rem;
+    background-color: rgb(242, 242, 242);
+    border-radius: 3rem;
+}
+.dates{
+    width: 15rem;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 1.25rem;
+    box-sizing: border-box;
+}
+.dates h4{
+    
+}
+.info{
+    width: 15rem;
+    height: 100%;
+    padding-top: 1.25rem;
+    background-color: white;
+    box-sizing: border-box;
+       
+}
+.search-button{
+    width: 10.5rem;
+}
+.search-button button{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(117, 49%, 60%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+.search-button button:hover{
+    background-color: hsl(117, 56%, 33%);
+}
+.waste-img{
+    width: 100%;
+    height: 18rem;
+    ;
+    
+}
+.waste-img-container{
+    width: 74.9375rem;
+    height: 17rem;
+    margin: 2rem 0;
+    padding-left: 3rem;
+    
+}
+.waste-img img{
+    width: 74.9375rem;
+    height: 17rem;
+    /* margin: 2rem 0;
+    padding-left: 3rem; */
+    border-radius: 5px;
+}
+.waste-img-2{
+    width: 100%;
+    height: 12rem;
+}
+.waste-img-2 .waste-img-container{
+    width: 74.9375rem;
+    height: 10rem;
+    margin: 2rem 0;
+   
+    
+}
+.waste-img-2 .waste-img-container img{
+    width: 74.9375rem;
+    height: 10rem;
+    border-radius: 5px;
+}
+.email-enter{
+    width: 74.9375rem;
+    height: 6rem;
+    
+    margin-left: 3rem;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    border: 0.5px solid rgb(175, 172, 172);
+}
+.imagefire{
+    height: 3rem;
+    width: 3rem;
+    
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+}
+.imagefire svg{
+    width: 3rem;
+    height: 3rem;
+}
+.detailsx{
+    height: 100%;
+    width: 25rem;
+    
+    padding-left: 3rem;
+    padding-top: 1.6rem;
+}
+.email-part{
+    height: 100%;
+    width: 34rem;
+    margin-left: 13rem;
+    
+    display: flex;
+    padding-top: 1.52rem;
+}
+.input-part{
+    height: 2.75rem;
+    width: 18rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    
+}
+.input-part input{
+    height: 2.75rem;
+    width: 17.75rem;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 0 0 1rem;
+    border: 1px solid rgb(198, 192, 192);
+}
+.button-part{
+    height: 2.75rem;
+    width: 7rem;
+    background-color: red;
+    margin-top: 0.1rem;
+    margin-left:2rem;
+    border-radius: 5px;
+    
+}
+.button-part button{
+    height: 2.75rem;
+    width: 7rem;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    
+}
+.big-img{
+    width: 100vw;
+    height: 30.1825rem;
+    
+    padding: 2.5rem 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 245, 247);
+    margin-top: 1.5rem;
+}
+.whole-container{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+}
+.img-part{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.img-part img{
+    width: 100%;
+}
+.loc-part{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.container-info{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+.info-oyo{
+    height: 20%;
+    width: 100%;
+    
+}
+.num-info{
+    height: 33%;
+    width: 100%;
+    
+    display: flex;
+}
+.location-international{
+    height: 33%;
+    width: 100%;
+    
+}
+.info-oyo h2{
+    font-weight: bolder;
+   margin-top: 2rem;
+    margin-bottom: 1.25rem;
+    padding-left: 2rem;
+}
+.info-oyo p{
+    padding-left: 2rem;
+}
+.countries {
+    height: 5rem;
+    width: 9rem;
+    
+    align-items: center;
+    align-self: center;
+    transform: skew(-20deg);
+    border-right: 1px solid black;
+}
+.hotels{
+    height: 5rem;
+    width: 10rem;
+    
+    align-self: center;
+    transform: skew(-20deg);
+}
+.countries h1, .countries p{
+    transform: skew(20deg );
+    padding-left: 2rem;
+}
+.hotels h1,.hotels p{
+    transform: skew(20deg );    
+    padding-left: 2rem;
+}
+.hotels,.countries p{
+    font-size: 16px;
+}
+.location-international{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.location-international div{
+    width: 28%;
+    height: 50%;
+}
+.location-international > div > span:first-child {
+    /* Your styles here */
+    
+    display: inline-block; /* Ensuring it shows the background color if it has no content */
+    width: 8px; /* Adjust width if needed */
+    height: 8px; /* Adjust height if needed */
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.footer{
+    width: 100%;
+    height: 52.75rem;
+    background-color: rgb(112, 120, 124);
+}
+.footer .heading{
+    height: 6rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem 4.375rem;
+    background-color: rgb(112, 120, 124);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid white;
+}
+.logo-info{
+    display: flex;
+    color: white;
+    padding-top: 0.75rem;
+}
+.info-button{
+    display: flex;
+    color: white;
+    /* padding-top: 0.75rem; */
+}
+.info-button h3{
+    padding-top: 0.75rem;
+}
+.info-button button{
+    width: 10.75rem;
+    height: 3rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.75rem 1rem;
+}
+.property{
+    display: flex;
+    
+}
+.property h5{
+    text-align: center;
+    align-self: center;
+    color: rgb(112, 120, 124);
+}
+.about-sec{
+    width: 88.94rem;
+    height: 9.5rem;
+    
+    padding: 1.875rem 5rem 1.875rem 5rem;
+    display: flex;
+    padding-top: 2rem;
+}
+.promotion{
+    width: 25.25rem;
+    height: 9.25rem;
+    border-right: 0.25px solid white;
+    
+}
+.about{
+    width: 20rem;
+    height: 9.25rem;
+    /* background-color: yellow; */
+    padding-left: 2rem;
+    border-right: 0.25px solid white;
+}
+.legal-things{
+    width: 22rem;
+    height: 9.25rem;
+    padding-left: 2rem;
+}
+.promotion .buttons{
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 1.25rem;
+}
+.promotion button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    gap: 1rem;
+    cursor: pointer;
+    
+}
+.promotion p{
+    color: white;
+    font-size: 0.85rem;
+}
+    
+    
+
+.appstore i{
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    margin-left: 0.75rem;
+    
+}
+.content h6{
+    font-weight: bolder;
+}
+.playstore img{
+    width: fit-content;
+    height: 2.25rem;
+    margin-left: 0.6rem;
+}
+.about{
+    padding-left: 2rem;
+   
+    
+}
+.links{
+    height: 100%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.links a{
+    font-size: 0.85rem;
+    font-weight: 350;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+.legal-things .links{
+    height: 100%;
+    width: 98%;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(217, 213, 213);
+    margin: auto;
+}
+.hotel-loc{
+    width: 100%;
+    height: 27rem;
+    background-color: rgb(112, 120, 124);
+    padding-top: 1px;
+}
+.hotel-heading{
+    width: 90%;
+    height: 2rem;
+   color: white;
+    margin: auto;
+   margin-top: 1.4rem;
+   padding-top: 5px;
+   box-sizing: border-box;
+    
+    
+}
+.hotels-options{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(112, 120, 124);
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotels-options a{
+    font-size: 13px;
+    font-weight: 500;
+    width: 190px;
+    color: white;
+    text-decoration: none;
+
+}
+.social-media{
+    width: 90%;
+    height: 6rem;
+    background-color: rgb(112, 120, 124);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.social-icons i{
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    /* background-color: grey; Background color */
+    color: white; /* Icon color */
+}
+.copyright{
+    height: 100%;
+    width: 12rem;
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
